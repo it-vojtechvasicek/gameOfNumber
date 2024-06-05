@@ -1,0 +1,17 @@
+#define RESET "[0m";
+#define BLACK "[30m";
+#define RED "[31m";
+#define GREEN "[32m";
+#define YELLOW "[33m";
+#define BLUE "[34m";
+#define MAGENTA "[35m";
+#define CYAN "[36m";
+#define WHITE "[37m";
+#define BOLDBLACK "[1m[30m";
+#define BOLDRED "[1m[31m";
+#define BOLDGREEN "[1m[32m";
+#define BOLDYELLOW "[1m[33m";
+#define BOLDBLUE "[1m[34m";
+#define BOLDMAGENTA "[1m[35m";
+#define BOLDCYAN "[1m[36m";
+#define BOLDWHITE "[1m[37m";
