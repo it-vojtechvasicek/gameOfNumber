@@ -9,15 +9,17 @@ int main(int argc, char *argv[]){
     int tajneCislo;
     int hracovoCislo;
     tajneCislo = rand()%5+1; //náhodné cislo od 1 do 5
-    cout << "Zadej svij typ na tajne cislo:";
+    cout << "Zadej svij typ na tajne cislo: ";
     cin >> hracovoCislo;
-    if (tajneCislo == tajneCislo)
+    if (hracovoCislo == tajneCislo)
     {
-        cout << "Uhodli jste tajne cislo!" << endl;
+        cout << GREEN << "Uhodli jste tajne cislo!" << endl;
+        cout << RESET << "Cislo bylo " << tajneCislo << endl;
     }
     else
     {
-        cout << "Neuhodli jste tajne cislo!" << endl;
+        cout << RED << "Neuhodli jste tajne cislo!" << endl;
+        cout << RESET << "Cislo bylo " << tajneCislo << endl;
     }
     
     return 0;
