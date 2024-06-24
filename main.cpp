@@ -14,12 +14,12 @@ int main(int argc, char *argv[]){
     if (hracovoCislo == tajneCislo)
     {
         cout << GREEN << "Uhodli jste tajne cislo!" << endl;
-        cout << RESET << "Cislo bylo " << tajneCislo << endl;
+        cout << RESET << "Cislo bylo: " << tajneCislo << endl;
     }
     else
     {
         cout << RED << "Neuhodli jste tajne cislo!" << endl;
-        cout << RESET << "Cislo bylo " << tajneCislo << endl;
+        cout << RESET << "Cislo bylo: " << tajneCislo << endl;
     }
     
     return 0;
